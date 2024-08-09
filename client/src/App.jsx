@@ -1,12 +1,15 @@
-
+import Canvas from "./canvas"
+import Customizer from "./pages/Customizer"
+import Home from "./pages/Home"
 
 function App() {
 
   return (
-    <h1 className="text-black font-bold">
-      React
-    </h1>
-
+    <main className="app transition-all">
+        <Home />
+        <Canvas />
+        <Customizer />
+    </main>
   )
 }
 
